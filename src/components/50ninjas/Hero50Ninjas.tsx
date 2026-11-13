@@ -49,14 +49,14 @@ export default function Hero50Ninjas({
           className="text-center mt-6 max-w-4xl mx-auto"
         >
           <h1 className="text-4xl sm:text-6xl md:text-7xl lg:text-8xl font-medium tracking-tight leading-[1.06] text-white">
-            We Edit Your Videos The Best Way.{" "}
+            Scale Your Personal Brand.{" "}
             <span className={`${instrumentSerif.className} font-normal italic text-zinc-200 block sm:inline`}>
-              Bring Any Creator Reference.
+              With Your AI Avatar.
             </span>
           </h1>
 
           <p className="mt-6 text-base sm:text-lg md:text-xl text-zinc-400 max-w-2xl mx-auto font-normal leading-relaxed">
-            Done-for-you short-form video production with your face and voice. Share references of creators or editing styles you love &mdash; we craft your avatar, clone your voice, write viral retention scripts, edit with kinetic subtitles, design custom thumbnails, and generate auto-DM copy. <span className="text-white font-semibold">We create. You download, upload, and build your Substack community.</span>
+            Done-for-you short-form video production. We craft your avatar, clone your voice, write viral retention scripts, edit with kinetic subtitles, and design custom thumbnails &mdash; <span className="text-white font-semibold">We create. You post.</span>
           </p>
         </motion.div>
 
@@ -137,13 +137,13 @@ export default function Hero50Ninjas({
 
           <div className="p-4 sm:p-5 rounded-2xl bg-zinc-950 border border-zinc-800/80 hover:border-zinc-700 transition-colors">
             <div className="text-2xl sm:text-4xl font-bold text-white tracking-tight">
-              Substack
+              Any Style
             </div>
             <div className="text-xs font-semibold text-zinc-400 mt-1 uppercase tracking-wider">
-              Community Flywheel
+              Creator References
             </div>
             <p className="text-[11px] text-zinc-500 mt-1 font-normal leading-tight">
-              Superprofile auto-DM to owned subscribers
+              Share references of creators you love &mdash; we match it
             </p>
           </div>
         </div>

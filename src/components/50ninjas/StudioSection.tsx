@@ -82,9 +82,9 @@ export default function StudioSection({ onOpenStudio }: StudioSectionProps) {
           </div>
 
           <h2 className="text-4xl sm:text-5xl md:text-6xl font-medium tracking-tight leading-[1.08]">
-            What We Provide &bull;{" "}
+            We Edit Your Videos The Best Way.{" "}
             <span className={`${instrumentSerif.className} font-normal italic text-zinc-200 block sm:inline`}>
-              Done-For-You Production Suite
+              Bring Any Creator Reference.
             </span>
           </h2>
 
@@ -94,7 +94,7 @@ export default function StudioSection({ onOpenStudio }: StudioSectionProps) {
 
           <div className="mt-5 inline-flex items-center gap-2.5 px-4 py-1.5 rounded-full bg-zinc-900 border border-zinc-800 text-xs font-mono text-zinc-300">
             <span className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse" />
-            <span>Our Formula: We Create &bull; You Post &amp; Build Your Substack</span>
+            <span>Our Formula: We Create &bull; You Post &amp; Scale Your Brand</span>
           </div>
         </div>
 
@@ -169,7 +169,7 @@ export default function StudioSection({ onOpenStudio }: StudioSectionProps) {
               What You Have to Do: 3 Simple Steps
             </h3>
             <p className="mt-2.5 text-sm text-zinc-400 max-w-2xl mx-auto">
-              How our creators turn short-form Instagram views into owned, paying Substack community members using automated DMs.
+              How our creators turn short-form Instagram views into owned community members using automated DMs.
             </p>
           </div>
 
@@ -212,7 +212,7 @@ export default function StudioSection({ onOpenStudio }: StudioSectionProps) {
 
                   {idx === 2 && (
                     <div className="mt-6 p-3.5 rounded-2xl bg-zinc-900 border border-zinc-800 text-[11px] text-zinc-300">
-                      <span className="font-semibold text-white">Community Ownership:</span> Turn temporary viral views into your own paid or free Substack subscriber list.
+                      <span className="font-semibold text-white">Community Ownership:</span> Turn temporary viral views into your own loyal subscriber list.
                     </div>
                   )}
                 </div>

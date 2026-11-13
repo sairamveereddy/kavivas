@@ -75,7 +75,7 @@ export default function Footer50Ninjas() {
               </li>
               <li>
                 <Link href="#creator-flywheel" className="hover:text-white transition-colors">
-                  Creator Flywheel (Substack &amp; Superprofile)
+                  Creator Flywheel (Growth &amp; Superprofile)
                 </Link>
               </li>
               <li>

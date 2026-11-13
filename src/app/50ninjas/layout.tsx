@@ -1,14 +1,14 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "50Ninjas | We Edit Your Videos The Best Way • 50ninjas.kavivas.tech",
+  title: "50Ninjas | Scale Your Personal Brand With Your AI Avatar • 50ninjas.kavivas.tech",
   description:
-    "We Edit Your Videos The Best Way. Bring Any Creator Reference. 50Ninjas (50ninjas.kavivas.tech) is a managed short-form video production studio with your face and voice, kinetic editing, custom thumbnails, and auto-DM copy.",
+    "Scale Your Personal Brand. With Your AI Avatar. Done-for-you short-form video production. We craft your avatar, clone your voice, write viral retention scripts, edit with kinetic subtitles, and design custom thumbnails — We create. You post.",
   keywords: [
     "50Ninjas",
     "50ninjas.kavivas.tech",
-    "We Edit Your Videos The Best Way",
-    "Bring Any Creator Reference",
+    "Scale Your Personal Brand",
+    "With Your AI Avatar",
     "The 50Ninjas Experiment",
     "AI Creator Community",
     "AI Content Studio",
@@ -22,9 +22,9 @@ export const metadata: Metadata = {
     canonical: "https://50ninjas.kavivas.tech",
   },
   openGraph: {
-    title: "50Ninjas | We Edit Your Videos The Best Way • 50ninjas.kavivas.tech",
+    title: "50Ninjas | Scale Your Personal Brand With Your AI Avatar • 50ninjas.kavivas.tech",
     description:
-      "We Edit Your Videos The Best Way. Bring Any Creator Reference. Done-for-you short-form video production with your face and voice by Kavivas Tech.",
+      "Scale Your Personal Brand. With Your AI Avatar. Done-for-you short-form video production. We craft your avatar, clone your voice, write viral retention scripts, edit with kinetic subtitles, and design custom thumbnails — We create. You post.",
     url: "https://50ninjas.kavivas.tech",
     siteName: "50Ninjas",
     type: "website",
@@ -39,9 +39,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "50Ninjas | We Edit Your Videos The Best Way • 50ninjas.kavivas.tech",
+    title: "50Ninjas | Scale Your Personal Brand With Your AI Avatar • 50ninjas.kavivas.tech",
     description:
-      "We Edit Your Videos The Best Way. Bring Any Creator Reference. 50ninjas.kavivas.tech by Kavivas Tech.",
+      "Scale Your Personal Brand. With Your AI Avatar. Done-for-you short-form video production. We create. You post.",
     images: ["/kavivas-logo.png"],
   },
 };

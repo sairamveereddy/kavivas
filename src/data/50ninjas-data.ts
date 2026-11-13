@@ -131,7 +131,7 @@ export const FIFTY_NINJAS_DATA = {
     { number: "235.4K+", label: "Total Organic Views", detail: "Over 3,260+ likes across showcase Reels" },
     { number: "Your Face", label: "& Voice Cloned", detail: "Custom AI avatars made with your face and voice" },
     { number: "Amazing", label: "Video Editing", detail: "Dynamic subtitles, sound design & motion graphics" },
-    { number: "Substack", label: "Community Flywheel", detail: "Superprofile auto-DM to owned subscribers" },
+    { number: "Any Style", label: "Creator References", detail: "Share references of creators you love — we match it" },
   ],
 
   whatWeProvide: [
@@ -192,10 +192,10 @@ export const FIFTY_NINJAS_DATA = {
     },
     {
       step: "03",
-      title: "Build Your Substack Community",
+      title: "Build Your Owned Community",
       headline: "Own Your Audience & Monetize",
       description:
-        "Route all your viral Instagram traffic directly into your Substack newsletter community. Post your in-depth matter there, giving the link in auto-DMs or regular likes to turn viewers into owned lifelong subscribers.",
+        "Route all your viral Instagram traffic directly into your owned community, newsletter, or platform. Post your in-depth content there, giving the link in auto-DMs to turn viewers into lifelong relationships and direct revenue.",
       icon: "BookOpen",
     },
   ],
