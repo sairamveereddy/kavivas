@@ -115,9 +115,24 @@ export default function PricingSection({ onSelectPlan }: PricingSectionProps) {
                       : "bg-zinc-900 hover:bg-zinc-800 text-white border border-zinc-800"
                   }`}
                 >
-                  <span>Select {tier.name}</span>
+                  <span>Lock In {tier.name}</span>
                   <ArrowRight className="w-4 h-4" />
                 </button>
+                {tier.paymentUrl && (
+                  <div className="mt-3 text-center">
+                    <a
+                      href={tier.paymentUrl}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-[11px] text-zinc-400 hover:text-white underline underline-offset-4 transition-colors"
+                    >
+                      Or Instant Checkout via Dodo Payments &rarr;
+                    </a>
+                    <p className="mt-1 text-[10px] text-emerald-400 font-mono">
+                      Code <span className="font-bold underline">FOUNDER</span> for 25% off
+                    </p>
+                  </div>
+                )}
                 <p className="mt-2 text-[10px] text-center text-zinc-500">
                   Ideal for: {tier.idealFor}
                 </p>

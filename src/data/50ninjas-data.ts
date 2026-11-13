@@ -13,6 +13,8 @@ export interface PricingTier {
   revisions: number;
   priority: string;
   idealFor: string;
+  productId?: string;
+  paymentUrl?: string;
 }
 
 export interface FaqItem {
@@ -62,6 +64,8 @@ export const FIFTY_NINJAS_DATA = {
     applicationFormUrl: "#apply",
     languages: ["English", "Telugu", "Hindi", "Supported mixed formats"],
     operatingModel: "Remote-first, AI-powered content production with human creative direction",
+    discountCode: "FOUNDER",
+    discountPercent: 25,
   },
 
   heroCards: [
@@ -347,6 +351,8 @@ export const FIFTY_NINJAS_DATA = {
       reelsPerMonth: 4,
       frequency: "1 Reel / week",
       description: "Perfect for busy professionals and emerging creators testing the waters of consistent personal branding.",
+      productId: "pdt_0NrtLV2HzVICjfjYHbTuE",
+      paymentUrl: "https://checkout.dodopayments.com/buy/pdt_0NrtLV2HzVICjfjYHbTuE?quantity=1",
       features: [
         "4 Complete Ready-to-Post Instagram Reels / mo",
         "Deep research & custom scriptwriting for each Reel",
@@ -373,6 +379,8 @@ export const FIFTY_NINJAS_DATA = {
       reelsPerMonth: 12,
       frequency: "3 Reels / week",
       description: "Built for active influencers, startup founders, and advisors scaling audience engagement and authority.",
+      productId: "pdt_0NrtLbrquMQL9d2ZHG8Se",
+      paymentUrl: "https://checkout.dodopayments.com/buy/pdt_0NrtLbrquMQL9d2ZHG8Se?quantity=1",
       features: [
         "12 Complete Ready-to-Post Instagram Reels / mo",
         "Weekday topic recommendations & trend monitoring",
@@ -400,6 +408,8 @@ export const FIFTY_NINJAS_DATA = {
       reelsPerMonth: 20,
       frequency: "5 Reels / week",
       description: "Complete hands-off content production for established personal brands, agencies, and high-growth ventures.",
+      productId: "pdt_0NrtLuFoCuBGXfWklDWXs",
+      paymentUrl: "https://checkout.dodopayments.com/buy/pdt_0NrtLuFoCuBGXfWklDWXs?quantity=1",
       features: [
         "20 Complete Ready-to-Post Instagram Reels / mo",
         "Dedicated daily topic research & competitor gap analysis",
