@@ -167,9 +167,9 @@ export const FIFTY_NINJAS_DATA = {
       title: "Auto-DM Message Matter",
       subtitle: "Keywords & Link Delivery Copy",
       description:
-        "Comment trigger keywords, instant DM response copy, and automated link delivery messages. Optimized for Superprofile or your preferred auto-DM platform.",
+        "Comment trigger keywords, instant DM response copy, and automated link delivery messages for your auto-DM platform.",
       icon: "MessageSquare",
-      badge: "Superprofile Ready",
+      badge: "Auto-DM Copy",
     },
   ],
 

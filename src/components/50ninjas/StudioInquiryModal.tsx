@@ -247,7 +247,7 @@ export default function StudioInquiryModal({
                     </div>
                     <div className="flex items-center gap-1.5">
                       <Check className="w-3.5 h-3.5 text-white shrink-0" />
-                      <span>Auto-DM Copy (Superprofile ready)</span>
+                      <span>Auto-DM Copy &amp; Automation</span>
                     </div>
                   </div>
                 </div>

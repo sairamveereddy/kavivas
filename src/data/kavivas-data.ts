@@ -108,11 +108,11 @@ export const KAVIVAS_DATA = {
         "Scale your personal brand with your AI avatar. Done-for-you short-form video production with your face and voice, custom thumbnails, and auto-DM copy, backed by the 50Ninjas creator ecosystem.",
       deepDive: [
         "Scale your personal brand: We craft your avatar, clone your voice, write viral retention scripts, edit with kinetic subtitles, and design custom thumbnails — We create. You post.",
-        "End-to-end production pipeline: Scriptwriting, kinetic word-by-word captions, custom thumbnail covers, and ready-to-paste auto-DM copy for Superprofile.",
+        "End-to-end production pipeline: Scriptwriting, kinetic word-by-word captions, custom thumbnail covers, and ready-to-paste auto-DM copy.",
         "Proven viral traction: Over 235.4K+ organic views, with flagship viral Reels crossing 92.2K views and 1,582+ likes.",
         "Connected creator ecosystem: Studio clients get access to the 50Ninjas builder mastermind for distribution, growth sprints, and founder playbooks."
       ],
-      metrics: "92.2K Peak Reel • Live on 50ninjas.kavivas.tech",
+      metrics: "235.4K+ Combined Views • Live on 50ninjas.kavivas.tech",
       tags: ["AI Content Studio", "Creator References", "Kinetic Video Editing", "Brand Flywheel", "50ninjas.kavivas.tech"],
       color: "#8B5CF6",
       accentColor: "#8B5CF6",
