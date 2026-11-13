@@ -49,14 +49,14 @@ export default function Hero50Ninjas({
           className="text-center mt-6 max-w-4xl mx-auto"
         >
           <h1 className="text-4xl sm:text-6xl md:text-7xl lg:text-8xl font-medium tracking-tight leading-[1.06] text-white">
-            Make Videos With Your Face &amp; Voice.{" "}
+            We Edit Your Videos The Best Way.{" "}
             <span className={`${instrumentSerif.className} font-normal italic text-zinc-200 block sm:inline`}>
-              Amazingly Edited.
+              Bring Any Creator Reference.
             </span>
           </h1>
 
           <p className="mt-6 text-base sm:text-lg md:text-xl text-zinc-400 max-w-2xl mx-auto font-normal leading-relaxed">
-            Done-for-you short-form video production. We craft your avatar video with your face and voice, custom thumbnails, viral captions with SEO keywords, and auto-DM copy. <span className="text-white font-semibold">We create. You download, upload, and build your Substack community.</span>
+            Done-for-you short-form video production with your face and voice. Share references of creators or editing styles you love &mdash; we craft your avatar, clone your voice, write viral retention scripts, edit with kinetic subtitles, design custom thumbnails, and generate auto-DM copy. <span className="text-white font-semibold">We create. You download, upload, and build your Substack community.</span>
           </p>
         </motion.div>
 

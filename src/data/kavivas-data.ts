@@ -103,17 +103,17 @@ export const KAVIVAS_DATA = {
       url: "https://50ninjas.kavivas.tech",
       status: "Live",
       category: "Managed Short-Form AI Content Studio & Ecosystem",
-      tagline: "50Ninjas — Done-For-You AI Short-Form Video Production & Builder Ecosystem",
+      tagline: "50Ninjas — We Edit Your Videos The Best Way. Bring Any Creator Reference.",
       description:
-        "High-velocity short-form content studio and creator ecosystem. We create your AI avatar, clone your voice, write viral retention scripts, edit with kinetic subtitles, and design thumbnails — We create. You post and build your Substack.",
+        "We edit your videos the best way — bring any creator reference. Done-for-you short-form video production with your face and voice, custom thumbnails, and auto-DM copy, backed by the 50Ninjas creator ecosystem.",
       deepDive: [
-        "Done-for-you AI avatar & voice cloning: Publish high-retention Reels consistently using custom AI likeness and voice models with zero camera fatigue.",
+        "We edit your videos the best way: Share references of creators or styles you love — we craft your avatar, clone your voice, and match the editing.",
         "End-to-end production pipeline: Scriptwriting, kinetic word-by-word captions, custom thumbnail covers, and ready-to-paste auto-DM copy for Superprofile.",
         "Proven viral traction: Over 235.4K+ organic views, with flagship viral Reels crossing 92.2K views and 1,582+ likes.",
         "Connected creator ecosystem: Studio clients get access to the 50Ninjas builder mastermind for distribution, growth sprints, and founder playbooks."
       ],
       metrics: "92.2K Peak Reel • Live on 50ninjas.kavivas.tech",
-      tags: ["AI Content Studio", "Avatar & Voice Cloned", "Kinetic Video Editing", "Substack Flywheel", "50ninjas.kavivas.tech"],
+      tags: ["AI Content Studio", "Creator References", "Kinetic Video Editing", "Substack Flywheel", "50ninjas.kavivas.tech"],
       color: "#8B5CF6",
       accentColor: "#8B5CF6",
       image: "/work-50ninjas.png",

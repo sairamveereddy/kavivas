@@ -82,9 +82,9 @@ export default function StudioSection({ onOpenStudio }: StudioSectionProps) {
           </div>
 
           <h2 className="text-4xl sm:text-5xl md:text-6xl font-medium tracking-tight leading-[1.08]">
-            We Edit Your Videos The Best Way.{" "}
+            What We Provide &bull;{" "}
             <span className={`${instrumentSerif.className} font-normal italic text-zinc-200 block sm:inline`}>
-              Bring Any Creator Reference.
+              Done-For-You Production Suite
             </span>
           </h2>
 
