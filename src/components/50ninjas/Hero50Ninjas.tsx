@@ -35,9 +35,8 @@ export default function Hero50Ninjas({
           transition={{ duration: 0.6 }}
           className="flex justify-center"
         >
-          <div className="inline-flex items-center gap-2.5 px-4 py-1.5 rounded-full bg-zinc-900 border border-zinc-800 text-xs text-zinc-300 font-mono shadow-sm">
-            <span className="w-2 h-2 rounded-full bg-white animate-pulse" />
-            <span>★ 50ninjas.kavivas.tech &bull; Managed AI Content Studio</span>
+          <div className="inline-flex items-center px-4 py-1.5 rounded-full bg-zinc-900 border border-zinc-800 text-xs text-zinc-300 font-mono shadow-sm">
+            <span>50ninjas.kavivas.tech &bull; Managed AI Content Studio</span>
           </div>
         </motion.div>
 
