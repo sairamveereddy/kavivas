@@ -154,23 +154,53 @@ export default function PricingSection({ onSelectPlan }: PricingSectionProps) {
           ))}
         </div>
 
-        {/* AI Subscription & Password Policy Box */}
+        {/* AI Video Services & Platform Freedom Box */}
         <div className="mt-16 p-8 rounded-3xl bg-zinc-950 border border-zinc-800 flex flex-col md:flex-row gap-8 items-start">
           <div className="p-3.5 rounded-2xl bg-zinc-900 border border-zinc-800 text-white shrink-0">
             <Lock className="w-6 h-6" />
           </div>
 
-          <div className="space-y-3">
-            <h4 className="text-base font-bold text-white tracking-tight">
-              Customer-Provided AI Subscriptions &amp; Security Policy
-            </h4>
-            <p className="text-xs sm:text-sm text-zinc-400 leading-relaxed font-normal">
-              To keep production packages highly accessible, our service operates with clients utilizing an eligible AI video generation subscription (such as Google AI Pro) or authorized agency seats.
-            </p>
+          <div className="space-y-4 w-full">
+            <div>
+              <h4 className="text-base font-bold text-white tracking-tight">
+                Choose Any Video Service &bull; Zero Platform Lock-in
+              </h4>
+              <p className="mt-1 text-xs sm:text-sm text-zinc-400 leading-relaxed font-normal">
+                You can choose any AI video generation service you prefer. We craft your avatar, clone your voice, and engineer cinematic scenes across your chosen platforms &mdash; or you can utilize our 50Ninjas agency seats.
+              </p>
+            </div>
+
+            {/* Supported Video Services Pills */}
+            <div className="flex flex-wrap items-center gap-2 pt-1">
+              <span className="text-[11px] font-mono text-zinc-400 mr-1">Supported Services:</span>
+              {[
+                "Google Gemini / Veo",
+                "HeyGen",
+                "Runway (Gen-3)",
+                "ElevenLabs",
+                "Kling AI",
+                "Luma Dream Machine",
+                "Synthesia",
+                "Pika",
+                "50Ninjas Agency Seat",
+              ].map((service) => (
+                <span
+                  key={service}
+                  className="px-2.5 py-1 rounded-full bg-zinc-900 border border-zinc-800 text-[11px] font-mono text-zinc-300"
+                >
+                  {service}
+                </span>
+              ))}
+            </div>
+
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 pt-2 text-xs text-zinc-300">
               <div className="flex items-start gap-2">
                 <span className="text-emerald-400 font-bold">✓</span>
-                <span>Zero password sharing: We never ask for your Google login or private credentials.</span>
+                <span>Complete platform freedom: Choose Google Gemini, HeyGen, Runway, ElevenLabs, Kling, Synthesia, or our agency stack.</span>
+              </div>
+              <div className="flex items-start gap-2">
+                <span className="text-emerald-400 font-bold">✓</span>
+                <span>Zero password sharing: We connect via workspace invites or API keys — never your private account password.</span>
               </div>
               <div className="flex items-start gap-2">
                 <span className="text-emerald-400 font-bold">✓</span>
@@ -178,13 +208,9 @@ export default function PricingSection({ onSelectPlan }: PricingSectionProps) {
               </div>
               <div className="flex items-start gap-2">
                 <span className="text-emerald-400 font-bold">✓</span>
-                <span>Introductory rate locked for your entire initial billing cohort.</span>
-              </div>
-              <div className="flex items-start gap-2">
-                <span className="text-emerald-400 font-bold">✓</span>
                 <span>100% Client ownership of all delivered vertical MP4s, scripts, and thumbnails.</span>
               </div>
-              <div className="flex items-start gap-2 sm:col-span-2 pt-1 border-t border-zinc-800/60">
+              <div className="flex items-start gap-2 sm:col-span-2 pt-2 border-t border-zinc-800/60">
                 <Globe className="w-3.5 h-3.5 text-emerald-400 shrink-0 mt-0.5" />
                 <span>Geographic availability: Currently accepting clients in <strong className="text-white">USA, Australia, and UK</strong>. Rest of the countries coming soon.</span>
               </div>

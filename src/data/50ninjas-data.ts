@@ -138,9 +138,9 @@ export const FIFTY_NINJAS_DATA = {
     {
       id: "prov-1",
       title: "Avatar Video (Your Face & Voice)",
-      subtitle: "30s to 60s Duration • Match Any Reference",
+      subtitle: "Choose Any Service • Google Gemini, HeyGen, Runway & More",
       description:
-        "High-fidelity vertical Reel (30 sec to 60 sec video based on requirements) using your approved facial model and cloned voice. Edited the best way with kinetic word-by-word subtitles, sound design, transitions, and zero watermarks. You can give references of any creators you like — we match their style.",
+        "High-fidelity vertical Reel (30 sec to 60 sec video based on requirements) using your approved facial model and cloned voice. Choose any video service you prefer — Google Gemini (Veo), HeyGen, Runway, ElevenLabs, Kling AI, Synthesia, or our 50Ninjas agency seat. Edited the best way with kinetic word-by-word subtitles, sound design, transitions, and zero watermarks. You can give references of any creators you like — we match their style.",
       icon: "Film",
       badge: "30s – 60s Videos",
     },
@@ -272,7 +272,7 @@ export const FIFTY_NINJAS_DATA = {
     {
       step: "06",
       title: "AI Video Production",
-      description: "We generate video scenes with authorized AI avatars, voice clones, cinematic B-roll, or incorporate your raw footage.",
+      description: "We generate video scenes on your chosen platform — Google Gemini (Veo), HeyGen, Runway, ElevenLabs, Kling AI, Synthesia, or our agency stack.",
     },
     {
       step: "07",
@@ -350,7 +350,7 @@ export const FIFTY_NINJAS_DATA = {
       features: [
         "4 Complete Ready-to-Post Instagram Reels / mo (30s – 60s based on requirements)",
         "Deep research & custom scriptwriting for each Reel",
-        "AI video generation & avatar/faceless production",
+        "Choose any AI service: Google Gemini, HeyGen, Runway, etc.",
         "Dynamic animated subtitles & sound design",
         "Custom branded Reel covers / thumbnails",
         "Ready-to-paste captions with targeted hashtags",
@@ -377,7 +377,7 @@ export const FIFTY_NINJAS_DATA = {
         "12 Complete Ready-to-Post Instagram Reels / mo (30s – 60s based on requirements)",
         "Weekday topic recommendations & trend monitoring",
         "Custom scripts tailored to your specific audience tone",
-        "AI avatar, voice clone, or faceless B-roll production",
+        "Choose any AI service: Google Gemini, HeyGen, Runway, ElevenLabs",
         "Advanced Remotion/FFmpeg motion graphics & transitions",
         "Custom branded thumbnails & story templates",
         "Captions, hashtags & full Auto-DM lead sequences",
@@ -403,7 +403,7 @@ export const FIFTY_NINJAS_DATA = {
       features: [
         "20 Complete Ready-to-Post Instagram Reels / mo (30s – 60s based on requirements)",
         "Dedicated daily topic research & competitor gap analysis",
-        "Full multi-camera / multi-agent script & visual direction",
+        "Choose any AI service: Google Gemini, HeyGen, Runway, Kling, Synthesia",
         "High-fidelity avatar & custom voice synthesis workflows",
         "Premium animation, b-roll layering & cinematic grading",
         "Custom high-CTR thumbnails and multi-format crops",
@@ -551,8 +551,13 @@ export const FIFTY_NINJAS_DATA = {
       category: "studio",
     },
     {
-      question: "Does the package include a Google AI Pro subscription?",
-      answer: "No. Third-party generative subscriptions (such as Google AI Pro) are separate. We operate with customer-authorized seats or agency accounts to keep studio fees low and transparent.",
+      question: "Which AI video services can I use with 50Ninjas?",
+      answer: "You can choose any video service! We support Google Gemini (Veo), HeyGen, Runway (Gen-3), ElevenLabs, Kling AI, Luma Dream Machine, Synthesia, Pika, and more. If you don't have an active subscription, you can also utilize our 50Ninjas agency seats.",
+      category: "studio",
+    },
+    {
+      question: "Do I need my own AI video subscription?",
+      answer: "You can bring your own subscription for any supported platform (Google Gemini, HeyGen, Runway, etc.) via scoped workspace access, or use our 50Ninjas agency seats. We never ask for your private passwords.",
       category: "studio",
     },
     {

@@ -25,7 +25,7 @@ export default function StudioInquiryModal({
     instagram: "",
     whatsapp: "",
     style: "AI Avatar & Voice Clone (Your Face & Voice)",
-    aiSubscription: "I have Google AI Pro",
+    aiSubscription: "Google Gemini / Veo",
     references: "",
     notes: "",
   });
@@ -75,7 +75,7 @@ export default function StudioInquiryModal({
 
   const getWhatsAppConfirmationUrl = () => {
     const text = encodeURIComponent(
-      `Hi 50Ninjas Studio! I just submitted my onboarding brief for the ${activePlanObj.name} plan ($${activePlanObj.monthlyIntro}/mo with code FOUNDER).\n\nName: ${formData.name}\nInstagram: ${formData.instagram}\nEmail: ${formData.email}\nStyle: ${formData.style}\nNotes: ${formData.notes || "Ready to get started"}`
+      `Hi 50Ninjas Studio! I just submitted my onboarding brief for the ${activePlanObj.name} plan ($${activePlanObj.monthlyIntro}/mo with code FOUNDER).\n\nName: ${formData.name}\nInstagram: ${formData.instagram}\nEmail: ${formData.email}\nService: ${formData.aiSubscription}\nStyle: ${formData.style}\nNotes: ${formData.notes || "Ready to get started"}`
     );
     return `https://wa.me/919912664800?text=${text}`;
   };
@@ -154,6 +154,10 @@ export default function StudioInquiryModal({
                   <div className="flex items-center justify-between">
                     <span className="text-zinc-400">Video Style:</span>
                     <span className="text-zinc-300">{formData.style}</span>
+                  </div>
+                  <div className="flex items-center justify-between">
+                    <span className="text-zinc-400">Video Service:</span>
+                    <span className="text-zinc-300">{formData.aiSubscription}</span>
                   </div>
                 </div>
 
@@ -350,16 +354,21 @@ export default function StudioInquiryModal({
 
                     <div>
                       <label className="block text-xs font-medium text-zinc-300 mb-1">
-                        AI Subscription Status
+                        Preferred Video Service
                       </label>
                       <select
                         value={formData.aiSubscription}
                         onChange={(e) => setFormData({ ...formData, aiSubscription: e.target.value })}
                         className="w-full px-3.5 py-2.5 rounded-xl bg-zinc-900 border border-zinc-800 text-white text-sm focus:outline-none focus:border-white transition-colors cursor-pointer"
                       >
-                        <option value="I have Google AI Pro">I have Google AI Pro</option>
-                        <option value="I will get Google AI Pro">I will get Google AI Pro</option>
-                        <option value="I prefer 50Ninjas Agency Seat">I prefer 50Ninjas Agency Seat</option>
+                        <option value="Google Gemini / Veo">Google Gemini / Veo</option>
+                        <option value="HeyGen (Avatar & Voice Clone)">HeyGen (Avatar &amp; Voice Clone)</option>
+                        <option value="Runway (Gen-3 / Gen-2)">Runway (Gen-3 / Gen-2)</option>
+                        <option value="ElevenLabs + B-Roll Engine">ElevenLabs + Voice Engine</option>
+                        <option value="Kling AI / Luma Dream Machine">Kling AI / Luma Dream Machine</option>
+                        <option value="Synthesia (AI Video & Avatars)">Synthesia (AI Video &amp; Avatars)</option>
+                        <option value="Pika / Midjourney Video">Pika / Midjourney Video</option>
+                        <option value="50Ninjas Agency Seat (Recommend for me)">50Ninjas Agency Seat (Recommend for me)</option>
                       </select>
                     </div>
                   </div>
