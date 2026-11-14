@@ -36,10 +36,12 @@ export const metadata: Metadata = {
     type: "website",
     images: [
       {
-        url: "/kavivas-logo.png",
-        width: 640,
-        height: 192,
-        alt: "Kavivas Tech Logo",
+        url: "https://kavivas.tech/kavivas-brand-logo.png",
+        secureUrl: "https://kavivas.tech/kavivas-brand-logo.png",
+        width: 1200,
+        height: 630,
+        alt: "Kavivas Tech — AI-First Product Studio",
+        type: "image/png",
       },
     ],
   },
@@ -48,7 +50,18 @@ export const metadata: Metadata = {
     title: "Kavivas.Tech | AI-First Product Studio & Engineering",
     description:
       "AI-first product studio creating software across multiple domains — built for clarity, speed, and real-world outcomes.",
-    images: ["/kavivas-logo.png"],
+    images: ["https://kavivas.tech/kavivas-brand-logo.png"],
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-video-preview": -1,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+    },
   },
   icons: {
     icon: [
