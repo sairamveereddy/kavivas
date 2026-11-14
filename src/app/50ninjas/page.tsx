@@ -52,7 +52,7 @@ export default function FiftyNinjasPage() {
           }}
         />
 
-        {/* 3. Paid Studio Pricing Plans ($79, $149, $279) */}
+        {/* 3. Paid Studio Pricing Plans ($74, $149, $299 with code FOUNDER) */}
         <PricingSection
           onSelectPlan={handleSelectPlan}
         />

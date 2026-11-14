@@ -75,7 +75,7 @@ export default function StudioInquiryModal({
 
   const getWhatsAppConfirmationUrl = () => {
     const text = encodeURIComponent(
-      `Hi 50Ninjas Studio! I just submitted my onboarding brief for the ${activePlanObj.name} plan ($${activePlanObj.monthlyIntro}/mo).\n\nName: ${formData.name}\nInstagram: ${formData.instagram}\nEmail: ${formData.email}\nStyle: ${formData.style}\nNotes: ${formData.notes || "Ready to get started"}`
+      `Hi 50Ninjas Studio! I just submitted my onboarding brief for the ${activePlanObj.name} plan ($${activePlanObj.monthlyIntro}/mo with code FOUNDER).\n\nName: ${formData.name}\nInstagram: ${formData.instagram}\nEmail: ${formData.email}\nStyle: ${formData.style}\nNotes: ${formData.notes || "Ready to get started"}`
     );
     return `https://wa.me/919912664800?text=${text}`;
   };
@@ -128,7 +128,7 @@ export default function StudioInquiryModal({
                 </h3>
                 <p className="mt-2.5 text-xs sm:text-sm text-zinc-400 leading-relaxed max-w-md mx-auto">
                   Your onboarding brief for <strong className="text-white">{activePlanObj.name}</strong> ($
-                  {activePlanObj.monthlyIntro}/mo) has been synced directly into our Google Sheet. A creative director will reach out within 24 hours.
+                  {activePlanObj.monthlyIntro}/mo with code FOUNDER) has been synced directly into our Google Sheet. A creative director will reach out within 24 hours.
                 </p>
 
                 {/* Submitted Data Summary Box */}
@@ -136,7 +136,7 @@ export default function StudioInquiryModal({
                   <div className="flex items-center justify-between border-b border-zinc-800 pb-2">
                     <span className="text-zinc-400">Selected Plan:</span>
                     <span className="font-bold text-white">
-                      {activePlanObj.name} (${activePlanObj.monthlyIntro}/mo)
+                      {activePlanObj.name} (${activePlanObj.monthlyIntro}/mo &bull; 25% off with code FOUNDER)
                     </span>
                   </div>
                   <div className="flex items-center justify-between">
@@ -249,6 +249,15 @@ export default function StudioInquiryModal({
                       <Check className="w-3.5 h-3.5 text-white shrink-0" />
                       <span>Auto-DM Copy &amp; Automation</span>
                     </div>
+                  </div>
+
+                  <div className="mt-3 pt-2.5 border-t border-zinc-800/80 flex items-center justify-between text-[11px]">
+                    <span className="text-zinc-400">
+                      Regular: <span className="line-through font-mono">${activePlanObj.monthlyRegular}/mo</span>
+                    </span>
+                    <span className="font-mono text-emerald-400 font-semibold bg-emerald-950/50 border border-emerald-800/40 px-2 py-0.5 rounded">
+                      25% OFF with code FOUNDER
+                    </span>
                   </div>
                 </div>
 
@@ -385,7 +394,7 @@ export default function StudioInquiryModal({
                       <span>Syncing with 50Ninjas Google Form...</span>
                     ) : (
                       <>
-                        <span>Lock In {activePlanObj.name} (${activePlanObj.monthlyIntro}/mo) &rarr;</span>
+                        <span>Lock In {activePlanObj.name} (${activePlanObj.monthlyIntro}/mo &bull; Code FOUNDER applied) &rarr;</span>
                       </>
                     )}
                   </button>

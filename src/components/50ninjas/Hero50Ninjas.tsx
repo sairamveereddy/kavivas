@@ -73,7 +73,7 @@ export default function Hero50Ninjas({
             className="w-full sm:w-auto inline-flex items-center justify-center gap-2.5 px-8 py-4 rounded-full bg-white hover:bg-zinc-200 text-black font-semibold text-sm transition-all shadow-xl hover:scale-105 cursor-pointer"
           >
             <Zap className="w-4 h-4 fill-black text-black" />
-            <span>Hire 50Ninjas Studio • From $79/mo</span>
+            <span>Hire 50Ninjas Studio • From $74/mo</span>
             <ArrowUpRight className="w-4 h-4 text-black" />
           </button>
 

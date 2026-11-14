@@ -35,7 +35,11 @@ export default function PricingSection({ onSelectPlan }: PricingSectionProps) {
           </h2>
 
           <p className="mt-4 text-base sm:text-lg text-zinc-400 font-normal leading-relaxed">
-            High-velocity AI short-form video production without traditional agency costs. Introductory discount locked for our founding 10 studio clients.
+            High-velocity AI short-form video production without traditional agency costs. Use promo code{" "}
+            <span className="font-mono text-emerald-400 font-bold bg-emerald-950/60 border border-emerald-800/50 px-2 py-0.5 rounded">
+              FOUNDER
+            </span>{" "}
+            for 25% off all monthly plans.
           </p>
         </div>
 
@@ -70,21 +74,30 @@ export default function PricingSection({ onSelectPlan }: PricingSectionProps) {
                 </p>
 
                 {/* Price Display */}
-                <div className="mt-6 flex items-baseline gap-3">
-                  <div className="flex items-baseline">
-                    <span className="text-4xl sm:text-5xl font-bold tracking-tight text-white">
-                      ${tier.monthlyIntro}
-                    </span>
-                    <span className="text-sm text-zinc-400 font-medium ml-1.5">/month</span>
+                <div className="mt-6 flex flex-col gap-2">
+                  <div className="flex items-baseline gap-3">
+                    <div className="flex items-baseline">
+                      <span className="text-4xl sm:text-5xl font-bold tracking-tight text-white">
+                        ${tier.monthlyIntro}
+                      </span>
+                      <span className="text-sm text-zinc-400 font-medium ml-1.5">/month</span>
+                    </div>
+
+                    <div className="flex flex-col">
+                      <span className="text-xs text-zinc-500 line-through font-mono">
+                        ${tier.monthlyRegular}/mo
+                      </span>
+                      <span className="text-[10px] text-zinc-500 font-mono">
+                        Regular price
+                      </span>
+                    </div>
                   </div>
 
-                  <div className="flex flex-col">
-                    <span className="text-xs text-zinc-500 line-through font-mono">
-                      ${tier.monthlyRegular}/mo
-                    </span>
-                    <span className="text-[10px] font-bold text-emerald-400 uppercase tracking-wide">
-                      Save ~{tier.discountPercent}%
-                    </span>
+                  {/* 25% OFF with code FOUNDER callout */}
+                  <div className="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full bg-emerald-950/40 border border-emerald-500/30 text-emerald-300 text-[11px] w-fit">
+                    <span className="font-bold text-emerald-400">25% OFF</span>
+                    <span className="text-zinc-600">&bull;</span>
+                    <span>with code <strong className="font-mono text-white bg-zinc-800 px-1.5 py-0.5 rounded border border-zinc-700">FOUNDER</strong></span>
                   </div>
                 </div>
 

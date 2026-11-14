@@ -112,7 +112,7 @@ export default function Navbar50Ninjas({
               }}
               className="w-full py-3 rounded-full text-xs font-bold bg-white hover:bg-zinc-200 text-black transition-colors"
             >
-              Hire 50Ninjas Studio (From $79/mo)
+              Hire 50Ninjas Studio (From $74/mo)
             </button>
             <button
               onClick={() => {
