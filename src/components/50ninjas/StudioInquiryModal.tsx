@@ -159,24 +159,6 @@ export default function StudioInquiryModal({
 
                 {/* Direct Action Buttons */}
                 <div className="mt-6 flex flex-col gap-2.5">
-                  {activePlanObj.paymentUrl && (
-                    <a
-                      href={activePlanObj.paymentUrl}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="w-full py-3.5 px-4 rounded-xl bg-white hover:bg-zinc-200 text-black font-bold text-xs flex items-center justify-center gap-2 transition-all shadow-xl cursor-pointer"
-                    >
-                      <Zap className="w-4 h-4 text-black fill-black" />
-                      <span>Proceed to Dodo Payments Checkout &rarr;</span>
-                    </a>
-                  )}
-
-                  <div className="p-2.5 rounded-xl bg-emerald-950/40 border border-emerald-500/30 text-center">
-                    <p className="text-[11px] text-emerald-300 font-medium">
-                      Apply promo code <span className="font-mono font-bold bg-emerald-500/20 px-1.5 py-0.5 rounded text-emerald-200">FOUNDER</span> at checkout for 25% off!
-                    </p>
-                  </div>
-
                   <a
                     href={getWhatsAppConfirmationUrl()}
                     target="_blank"
@@ -267,13 +249,6 @@ export default function StudioInquiryModal({
                       <Check className="w-3.5 h-3.5 text-white shrink-0" />
                       <span>Auto-DM Copy &amp; Automation</span>
                     </div>
-                  </div>
-
-                  <div className="mt-3 pt-2.5 border-t border-zinc-800/80 flex items-center justify-between text-[11px]">
-                    <span className="text-zinc-400">Coupon available:</span>
-                    <span className="font-mono text-emerald-400 font-semibold bg-emerald-950/50 border border-emerald-800/40 px-2 py-0.5 rounded">
-                      Use code FOUNDER for 25% off
-                    </span>
                   </div>
                 </div>
 
