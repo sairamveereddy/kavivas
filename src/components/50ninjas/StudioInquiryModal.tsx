@@ -241,7 +241,7 @@ export default function StudioInquiryModal({
                   <div className="grid grid-cols-2 gap-2 text-[11px] text-zinc-400">
                     <div className="flex items-center gap-1.5">
                       <Check className="w-3.5 h-3.5 text-white shrink-0" />
-                      <span>{activePlanObj.reelsPerMonth} Vertical Reels (Face &amp; Voice)</span>
+                      <span>{activePlanObj.reelsPerMonth} Vertical Reels (30s – 60s per video)</span>
                     </div>
                     <div className="flex items-center gap-1.5">
                       <Check className="w-3.5 h-3.5 text-white shrink-0" />

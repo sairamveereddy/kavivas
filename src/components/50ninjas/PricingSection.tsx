@@ -110,10 +110,16 @@ export default function PricingSection({ onSelectPlan }: PricingSectionProps) {
                   </div>
                 </div>
 
-                {/* Revisions & Priority Pill */}
-                <div className="mt-4 pt-4 border-t border-zinc-800 flex items-center justify-between text-xs text-zinc-400 font-mono">
-                  <span>Revisions: {tier.revisions} round{tier.revisions > 1 ? "s" : ""}/video</span>
-                  <span>Queue: {tier.priority}</span>
+                {/* Revisions, Duration & Priority */}
+                <div className="mt-4 pt-4 border-t border-zinc-800 flex flex-col gap-1.5 text-xs text-zinc-400 font-mono">
+                  <div className="flex items-center justify-between">
+                    <span>Revisions: {tier.revisions} round{tier.revisions > 1 ? "s" : ""}/video</span>
+                    <span>Queue: {tier.priority}</span>
+                  </div>
+                  <div className="flex items-center justify-between text-[11px] text-zinc-300">
+                    <span>Duration: <strong>30s – 60s per video</strong></span>
+                    <span className="text-zinc-500 font-sans">Based on requirements</span>
+                  </div>
                 </div>
 
                 {/* Feature Checklist */}

@@ -138,11 +138,11 @@ export const FIFTY_NINJAS_DATA = {
     {
       id: "prov-1",
       title: "Avatar Video (Your Face & Voice)",
-      subtitle: "Edited The Best Way • Match Any Reference",
+      subtitle: "30s to 60s Duration • Match Any Reference",
       description:
-        "High-fidelity vertical Reel using your approved facial model and cloned voice. Edited the best way with kinetic word-by-word subtitles, sound design, transitions, and zero watermarks. You can give references of any creators you like — we match their style.",
+        "High-fidelity vertical Reel (30 sec to 60 sec video based on requirements) using your approved facial model and cloned voice. Edited the best way with kinetic word-by-word subtitles, sound design, transitions, and zero watermarks. You can give references of any creators you like — we match their style.",
       icon: "Film",
-      badge: "The Best Way",
+      badge: "30s – 60s Videos",
     },
     {
       id: "prov-2",
@@ -298,9 +298,9 @@ export const FIFTY_NINJAS_DATA = {
 
   deliverablesPackage: [
     {
-      name: "Finished Vertical Reel",
-      format: "MP4 • 1080x1920 (9:16)",
-      detail: "Clean cut, dynamic subtitles, audio leveling, motion graphics, and zero watermarks.",
+      name: "Finished Vertical Reel (30s – 60s)",
+      format: "MP4 • 1080x1920 (9:16) • 30–60 Seconds",
+      detail: "30 sec to 60 sec video crafted based on your requirements. Clean cut, dynamic subtitles, audio leveling, motion graphics, and zero watermarks.",
       icon: "Film",
     },
     {
@@ -348,7 +348,7 @@ export const FIFTY_NINJAS_DATA = {
       frequency: "1 Reel / week",
       description: "Perfect for busy professionals and emerging creators testing the waters of consistent personal branding.",
       features: [
-        "4 Complete Ready-to-Post Instagram Reels / mo",
+        "4 Complete Ready-to-Post Instagram Reels / mo (30s – 60s based on requirements)",
         "Deep research & custom scriptwriting for each Reel",
         "AI video generation & avatar/faceless production",
         "Dynamic animated subtitles & sound design",
@@ -374,7 +374,7 @@ export const FIFTY_NINJAS_DATA = {
       frequency: "3 Reels / week",
       description: "Built for active influencers, startup founders, and advisors scaling audience engagement and authority.",
       features: [
-        "12 Complete Ready-to-Post Instagram Reels / mo",
+        "12 Complete Ready-to-Post Instagram Reels / mo (30s – 60s based on requirements)",
         "Weekday topic recommendations & trend monitoring",
         "Custom scripts tailored to your specific audience tone",
         "AI avatar, voice clone, or faceless B-roll production",
@@ -401,7 +401,7 @@ export const FIFTY_NINJAS_DATA = {
       frequency: "5 Reels / week",
       description: "Complete hands-off content production for established personal brands, agencies, and high-growth ventures.",
       features: [
-        "20 Complete Ready-to-Post Instagram Reels / mo",
+        "20 Complete Ready-to-Post Instagram Reels / mo (30s – 60s based on requirements)",
         "Dedicated daily topic research & competitor gap analysis",
         "Full multi-camera / multi-agent script & visual direction",
         "High-fidelity avatar & custom voice synthesis workflows",
@@ -528,6 +528,11 @@ export const FIFTY_NINJAS_DATA = {
     {
       question: "What exactly is included in a 50Ninjas Studio package?",
       answer: "Each video is delivered as a complete ready-to-post package: the finished high-resolution MP4 Reel with subtitles, a custom cover/thumbnail, a ready-to-paste caption with hashtags, auto-DM response copy, and the production script.",
+      category: "studio",
+    },
+    {
+      question: "How long is each video / Reel?",
+      answer: "We make 30-second to 60-second videos based on your specific requirements, topic depth, and audience retention goals.",
       category: "studio",
     },
     {
