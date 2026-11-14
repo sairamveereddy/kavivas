@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import { X, CheckCircle, ArrowRight, ShieldCheck, ExternalLink, MessageCircle, Check, Zap } from "lucide-react";
+import { X, CheckCircle, ArrowRight, ShieldCheck, ExternalLink, MessageCircle, Check, Zap, Globe } from "lucide-react";
 import { FIFTY_NINJAS_DATA } from "@/data/50ninjas-data";
 
 interface StudioInquiryModalProps {
@@ -200,6 +200,12 @@ export default function StudioInquiryModal({
                 <p className="mt-1 text-xs text-zinc-400 leading-relaxed">
                   Done-for-you short-form video production with your face and voice.
                 </p>
+
+                {/* Region Availability Pill */}
+                <div className="mt-2.5 inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-zinc-900 border border-zinc-800 text-[10px] font-mono text-zinc-300">
+                  <Globe className="w-3 h-3 text-emerald-400 shrink-0" />
+                  <span>Available only for <strong>USA / AUS / UK</strong> &bull; <span className="text-zinc-500">Rest coming soon</span></span>
+                </div>
 
                 {/* Plan Selector Tabs (Monochrome High Contrast) */}
                 <div className="mt-5 grid grid-cols-3 gap-2 p-1.5 rounded-2xl bg-zinc-900 border border-zinc-800">

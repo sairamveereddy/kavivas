@@ -1,6 +1,6 @@
 "use client";
 
-import { Check, ArrowRight, Lock, Zap } from "lucide-react";
+import { Check, ArrowRight, Lock, Zap, Globe } from "lucide-react";
 import { FIFTY_NINJAS_DATA } from "@/data/50ninjas-data";
 import { Instrument_Serif } from "next/font/google";
 
@@ -41,6 +41,15 @@ export default function PricingSection({ onSelectPlan }: PricingSectionProps) {
             </span>{" "}
             for 25% off all monthly plans.
           </p>
+
+          {/* Region Availability Notice */}
+          <div className="mt-5 inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-zinc-900 border border-zinc-800 text-xs font-mono text-zinc-300 shadow-sm">
+            <Globe className="w-3.5 h-3.5 text-emerald-400 shrink-0" />
+            <span>
+              Available only for <strong className="text-white font-semibold">USA / AUS / UK</strong> &bull;{" "}
+              <span className="text-zinc-400">Rest of the countries coming soon</span>
+            </span>
+          </div>
         </div>
 
         {/* 3 Pricing Cards */}
@@ -168,6 +177,10 @@ export default function PricingSection({ onSelectPlan }: PricingSectionProps) {
               <div className="flex items-start gap-2">
                 <span className="text-emerald-400 font-bold">✓</span>
                 <span>100% Client ownership of all delivered vertical MP4s, scripts, and thumbnails.</span>
+              </div>
+              <div className="flex items-start gap-2 sm:col-span-2 pt-1 border-t border-zinc-800/60">
+                <Globe className="w-3.5 h-3.5 text-emerald-400 shrink-0 mt-0.5" />
+                <span>Geographic availability: Currently accepting clients in <strong className="text-white">USA, Australia, and UK</strong>. Rest of the countries coming soon.</span>
               </div>
             </div>
           </div>
