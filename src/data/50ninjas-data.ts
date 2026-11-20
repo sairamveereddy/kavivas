@@ -128,7 +128,7 @@ export const FIFTY_NINJAS_DATA = {
   ] as HeroCard[],
 
   stats: [
-    { number: "235.4K+", label: "Total Organic Views", detail: "Over 3,260+ likes across showcase Reels" },
+    { number: "1.3M+", label: "Total Organic Views", detail: "Across showcase Reels & viral content" },
     { number: "Your Face", label: "& Voice Cloned", detail: "Custom AI avatars made with your face and voice" },
     { number: "Amazing", label: "Video Editing", detail: "Dynamic subtitles, sound design & motion graphics" },
     { number: "Any Style", label: "Creator References", detail: "Share references of creators you love — we match it" },

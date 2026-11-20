@@ -100,13 +100,13 @@ export default function Hero50Ninjas({
         <div className="mt-8 pt-10 border-t border-zinc-900 grid grid-cols-2 md:grid-cols-4 gap-4 sm:gap-6 text-center">
           <div className="p-4 sm:p-5 rounded-2xl bg-zinc-950 border border-zinc-800/80 hover:border-zinc-700 transition-colors">
             <div className="text-2xl sm:text-4xl font-bold text-white tracking-tight">
-              235.4K+
+              1.3M+
             </div>
             <div className="text-xs font-semibold text-zinc-400 mt-1 uppercase tracking-wider">
               Total Organic Views
             </div>
             <p className="text-[11px] text-zinc-500 mt-1 font-normal leading-tight">
-              Over 3,260+ likes across showcase Reels
+              Across showcase Reels &amp; viral content
             </p>
           </div>
 
